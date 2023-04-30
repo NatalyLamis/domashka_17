@@ -1,0 +1,39 @@
+.title-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 600px;
+}
+.title-block::after{
+    content: "";
+    height: 2px;
+    background-color: #000000;
+    flex: 0 1 464px;
+    align-self: center;
+}
+.header-page{
+    text-align: center;
+    max-height: 771px;
+}
+.header-page__title{
+    font-size: 56px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 36px;
+}
+.header-page__subtitle{
+    margin: 0 auto;
+    max-width: 518px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.header-page__image{
+    max-width: 100%;
+}
