@@ -507,9 +507,6 @@ body{
     }
 }
 @media(max-width:960px){
-    body{
-        font-size: 16px;
-    }
     .page{
         padding-top: 20px;
     }
@@ -644,7 +641,7 @@ body{
 }
 @media(max-width:590px){
     body{
-        font-size: 14px;
+        font-size: 16px;
     }
     .page{
         padding-top: 10px;
@@ -653,7 +650,7 @@ body{
         margin-bottom: 20px;
     }
     .header-page__title{
-        font-size: 30px;
+        font-size: 34px;
         margin-bottom: 5px;
     }
     .header-page__subtitle{
