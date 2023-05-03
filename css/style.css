@@ -529,6 +529,9 @@ body{
     .page__section{
         margin-bottom: 50px;
     }
+    .page__checkout{
+        margin-bottom: 50px;
+    }
 }
 @media(max-width:791px){
     .articles-room{
@@ -695,7 +698,7 @@ body{
         flex: 0 1 100%;
     }
     .coupon__btn{
-        align-self: flex-end;
+        align-self: center;
     }
 }
 @media(max-width:450px){
